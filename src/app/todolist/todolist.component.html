@@ -1,0 +1,8 @@
+<!-- Ajout d'une tâche -->
+<div>
+    <app-todoform></app-todoform>
+</div>
+<!-- Affichage des tâches -->
+<div>
+    <app-todo [todo]="todo" *ngFor="let todo of todos"></app-todo>
+</div>
